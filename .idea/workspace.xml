@@ -20,8 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb47c40-9404-4ca5-94f4-fe4351884918" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/curso_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/curso_django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,36 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/pypro/settings.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.django.DjangoModulesConfigurable" />
+  </component>
+  <component name="RunManager">
+    <configuration name="django" type="Python.DjangoServer" factoryName="Django server">
+      <module name="curso_django" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="pypro.settings" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\alexandre\PythonPro\curso_django\.venv\Scripts\python.exe" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -56,6 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593286639381</updated>
+      <workItem from="1593297882553" duration="392000" />
     </task>
     <task id="LOCAL-00001" summary="Integração continua com travis">
       <created>1593287672268</created>
@@ -99,8 +131,18 @@
       <option name="project" value="LOCAL" />
       <updated>1593293912089</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Adicionada informação de publicação da aplicação no Heroku">
+      <created>1593294463179</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1593294463179</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -121,16 +163,45 @@
     <MESSAGE value="Implementação do PyUp" />
     <MESSAGE value="Configuração e aplicação dos arquivos no Heroku" />
     <MESSAGE value="Configuração e aplicação dos arquivos no Heroku - Versão Ajustada" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuração e aplicação dos arquivos no Heroku - Versão Ajustada" />
+    <MESSAGE value="Adicionada informação de publicação da aplicação no Heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adicionada informação de publicação da aplicação no Heroku" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1920" y="595" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593298032090">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state x="1920" y="595" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593298032090" />
     <state x="2225" y="742" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593293211255">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="2225" y="742" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593293211255" />
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593293915793">
+    <state x="2240" y="695" key="FileChooserDialogImpl" timestamp="1593298024153">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593293915793" />
+    <state x="2240" y="695" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593298024153" />
+    <state width="1059" height="559" key="GridCell.Tab.0.bottom" timestamp="1593295670738">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1059" height="559" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593295670738" />
+    <state width="1059" height="559" key="GridCell.Tab.0.center" timestamp="1593295670738">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1059" height="559" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593295670738" />
+    <state width="1059" height="559" key="GridCell.Tab.0.left" timestamp="1593295670738">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1059" height="559" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593295670738" />
+    <state width="1059" height="559" key="GridCell.Tab.0.right" timestamp="1593295670738">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state width="1059" height="559" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593295670738" />
+    <state x="1961" y="585" key="SettingsEditor" timestamp="1593298030986">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state x="1961" y="585" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593298030986" />
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593294465202">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593294465202" />
   </component>
 </project>
