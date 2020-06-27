@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acb47c40-9404-4ca5-94f4-fe4351884918" name="Default Changelist" comment="" />
+    <list default="true" id="acb47c40-9404-4ca5-94f4-fe4351884918" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,7 +92,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593293724956</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Configuração e aplicação dos arquivos no Heroku - Versão Ajustada">
+      <created>1593293912089</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1593293912089</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,16 +120,17 @@
     <MESSAGE value="Implementação do logo do Travis no README.md" />
     <MESSAGE value="Implementação do PyUp" />
     <MESSAGE value="Configuração e aplicação dos arquivos no Heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuração e aplicação dos arquivos no Heroku" />
+    <MESSAGE value="Configuração e aplicação dos arquivos no Heroku - Versão Ajustada" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuração e aplicação dos arquivos no Heroku - Versão Ajustada" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2225" y="742" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593293211255">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="2225" y="742" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593293211255" />
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593289573496">
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593293915793">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593289573496" />
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593293915793" />
   </component>
 </project>
