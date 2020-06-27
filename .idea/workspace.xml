@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acb47c40-9404-4ca5-94f4-fe4351884918" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/curso_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/curso_django.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-    </list>
+    <list default="true" id="acb47c40-9404-4ca5-94f4-fe4351884918" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -88,7 +82,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593289571676</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Configuração e aplicação dos arquivos no Heroku">
+      <created>1593293724956</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593293724956</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,13 +102,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Integração continua com travis" />
     <MESSAGE value="Implementação do flake8" />
     <MESSAGE value="Implementação do logo do Travis no README.md" />
     <MESSAGE value="Implementação do PyUp" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação do PyUp" />
+    <MESSAGE value="Configuração e aplicação dos arquivos no Heroku" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuração e aplicação dos arquivos no Heroku" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2225" y="742" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593293211255">
