@@ -20,9 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb47c40-9404-4ca5-94f4-fe4351884918" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/curso_django.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/curso_django.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593289007579</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Implementação do PyUp">
+      <created>1593289571676</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1593289571676</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,12 +106,17 @@
     <MESSAGE value="Integração continua com travis" />
     <MESSAGE value="Implementação do flake8" />
     <MESSAGE value="Implementação do logo do Travis no README.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação do logo do Travis no README.md" />
+    <MESSAGE value="Implementação do PyUp" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementação do PyUp" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593289029715">
+    <state x="2225" y="742" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593293211255">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593289029715" />
+    <state x="2225" y="742" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593293211255" />
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593289573496">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593289573496" />
   </component>
 </project>
