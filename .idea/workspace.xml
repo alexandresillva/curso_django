@@ -20,8 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb47c40-9404-4ca5-94f4-fe4351884918" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.pyup.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +56,14 @@
       <option name="presentableId" value="Default" />
       <updated>1593286639381</updated>
     </task>
+    <task id="LOCAL-00001" summary="Integração continua com travis">
+      <created>1593287672268</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593287672268</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -69,5 +76,15 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Integração continua com travis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integração continua com travis" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593287676001">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593287676001" />
   </component>
 </project>
