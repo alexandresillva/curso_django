@@ -20,11 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb47c40-9404-4ca5-94f4-fe4351884918" name="Default Changelist" comment="Implementação de teste com pytest no django">
-      <change afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/env-sample" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -132,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593286639381</updated>
       <workItem from="1593297882553" duration="392000" />
-      <workItem from="1593304092228" duration="1578000" />
+      <workItem from="1593304092228" duration="6820000" />
     </task>
     <task id="LOCAL-00001" summary="Integração continua com travis">
       <created>1593287672268</created>
@@ -204,7 +204,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593304436905</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Configuração do ambiente de dev e produção para exibir erros conforme cada ambiente">
+      <created>1593305749854</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593305749854</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,7 +243,8 @@
     <MESSAGE value="Ajustando erros de imports" />
     <MESSAGE value="Implementação de teste com pytest no django" />
     <MESSAGE value="Integração das coberturas de testes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Integração das coberturas de testes" />
+    <MESSAGE value="Configuração do ambiente de dev e produção para exibir erros conforme cada ambiente" />
+    <option name="LAST_COMMIT_MESSAGE" value="Configuração do ambiente de dev e produção para exibir erros conforme cada ambiente" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1920" y="595" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593298032090">
@@ -251,30 +259,30 @@
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="2240" y="695" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593298024153" />
-    <state width="1037" height="559" key="GridCell.Tab.0.bottom" timestamp="1593305467497">
+    <state width="1037" height="559" key="GridCell.Tab.0.bottom" timestamp="1593310759810">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state width="1037" height="559" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593305467497" />
-    <state width="1037" height="559" key="GridCell.Tab.0.center" timestamp="1593305467497">
+    <state width="1037" height="559" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593310759810" />
+    <state width="1037" height="559" key="GridCell.Tab.0.center" timestamp="1593310759810">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state width="1037" height="559" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593305467497" />
-    <state width="1037" height="559" key="GridCell.Tab.0.left" timestamp="1593305467497">
+    <state width="1037" height="559" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593310759810" />
+    <state width="1037" height="559" key="GridCell.Tab.0.left" timestamp="1593310759810">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state width="1037" height="559" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593305467497" />
-    <state width="1037" height="559" key="GridCell.Tab.0.right" timestamp="1593305467497">
+    <state width="1037" height="559" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593310759810" />
+    <state width="1037" height="559" key="GridCell.Tab.0.right" timestamp="1593310759810">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state width="1037" height="559" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593305467497" />
+    <state width="1037" height="559" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593310759810" />
     <state x="1961" y="585" key="SettingsEditor" timestamp="1593299364788">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="1961" y="585" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593299364788" />
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593304440474">
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593305753140">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593304440474" />
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593305753140" />
     <state x="2123" y="435" key="search.everywhere.popup" timestamp="1593299701574">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
