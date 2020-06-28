@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb47c40-9404-4ca5-94f4-fe4351884918" name="Default Changelist" comment="Implementação de teste com pytest no django">
+      <change afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,11 +60,16 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pypro/settings.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/contrib" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_home.test_status_code">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\alexandre\PythonPro\curso_django\contrib" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Django Server.django">
     <configuration name="django" type="Python.DjangoServer" factoryName="Django server">
       <module name="curso_django" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -125,7 +132,7 @@
       <option name="presentableId" value="Default" />
       <updated>1593286639381</updated>
       <workItem from="1593297882553" duration="392000" />
-      <workItem from="1593304092228" duration="303000" />
+      <workItem from="1593304092228" duration="1578000" />
     </task>
     <task id="LOCAL-00001" summary="Integração continua com travis">
       <created>1593287672268</created>
@@ -190,11 +197,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593299729848</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Integração das coberturas de testes">
+      <created>1593304436905</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593304436905</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.env" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -218,48 +235,52 @@
     <MESSAGE value="Adicionada informação de publicação da aplicação no Heroku" />
     <MESSAGE value="Ajustando erros de imports" />
     <MESSAGE value="Implementação de teste com pytest no django" />
-    <option name="LAST_COMMIT_MESSAGE" value="Implementação de teste com pytest no django" />
+    <MESSAGE value="Integração das coberturas de testes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Integração das coberturas de testes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1920" y="595" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593298032090">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="1920" y="595" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593298032090" />
-    <state x="2225" y="742" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593293211255">
+    <state x="2225" y="742" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1593305629508">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state x="2225" y="742" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593293211255" />
+    <state x="2225" y="742" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593305629508" />
     <state x="2240" y="695" key="FileChooserDialogImpl" timestamp="1593298024153">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="2240" y="695" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593298024153" />
-    <state width="1037" height="559" key="GridCell.Tab.0.bottom" timestamp="1593299691254">
+    <state width="1037" height="559" key="GridCell.Tab.0.bottom" timestamp="1593305467497">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state width="1037" height="559" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593299691254" />
-    <state width="1037" height="559" key="GridCell.Tab.0.center" timestamp="1593299691254">
+    <state width="1037" height="559" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593305467497" />
+    <state width="1037" height="559" key="GridCell.Tab.0.center" timestamp="1593305467497">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state width="1037" height="559" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593299691254" />
-    <state width="1037" height="559" key="GridCell.Tab.0.left" timestamp="1593299691254">
+    <state width="1037" height="559" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593305467497" />
+    <state width="1037" height="559" key="GridCell.Tab.0.left" timestamp="1593305467497">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state width="1037" height="559" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593299691254" />
-    <state width="1037" height="559" key="GridCell.Tab.0.right" timestamp="1593299691254">
+    <state width="1037" height="559" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593305467497" />
+    <state width="1037" height="559" key="GridCell.Tab.0.right" timestamp="1593305467497">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state width="1037" height="559" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593299691254" />
+    <state width="1037" height="559" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593305467497" />
     <state x="1961" y="585" key="SettingsEditor" timestamp="1593299364788">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="1961" y="585" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593299364788" />
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593299734578">
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593304440474">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593299734578" />
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593304440474" />
     <state x="2123" y="435" key="search.everywhere.popup" timestamp="1593299701574">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="2123" y="435" key="search.everywhere.popup/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593299701574" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/curso_django$pytest_for_test_home_test_status_code.coverage" NAME="pytest for test_home.test_status_code Coverage Results" MODIFIED="1593305378796" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pypro/base/tests" />
   </component>
 </project>
