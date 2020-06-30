@@ -20,12 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb47c40-9404-4ca5-94f4-fe4351884918" name="Default Changelist" comment="Implementação de teste com pytest no django">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pipfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pipfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/env-sample" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/env-sample" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/base/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -146,7 +140,7 @@
       <workItem from="1593393322763" duration="595000" />
       <workItem from="1593470691640" duration="4607000" />
       <workItem from="1593525644918" duration="3298000" />
-      <workItem from="1593554794025" duration="5255000" />
+      <workItem from="1593554794025" duration="5400000" />
     </task>
     <task id="LOCAL-00001" summary="Integração continua com travis">
       <created>1593287672268</created>
@@ -400,7 +394,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593557343101</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="django debug toolbar">
+      <created>1593560140978</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1593560140978</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,7 +423,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Configuração do ambiente de dev e produção para exibir erros conforme cada ambiente" />
     <MESSAGE value="Configuração de arquivos staticos no projeto" />
     <MESSAGE value="Configuração de arquivos staticos no projeto ajustado" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;pypro/settings.py" />
@@ -447,7 +447,8 @@
     <MESSAGE value="Implementando migração de dados - ajuste build" />
     <MESSAGE value="COLLECTFAST_STRATEGY" />
     <MESSAGE value="COLLECTFAST_STRATEGY 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="COLLECTFAST_STRATEGY 2" />
+    <MESSAGE value="django debug toolbar" />
+    <option name="LAST_COMMIT_MESSAGE" value="django debug toolbar" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1920" y="595" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593528263490">
@@ -462,26 +463,26 @@
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="2240" y="695" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593528206139" />
-    <state width="1037" height="557" key="GridCell.Tab.0.bottom" timestamp="1593559630354">
+    <state width="1037" height="557" key="GridCell.Tab.0.bottom" timestamp="1593560169943">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state width="1877" height="559" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1593530877864" />
-    <state width="1037" height="557" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593559630354" />
-    <state width="1037" height="557" key="GridCell.Tab.0.center" timestamp="1593559630354">
+    <state width="1037" height="557" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593560169943" />
+    <state width="1037" height="557" key="GridCell.Tab.0.center" timestamp="1593560169943">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state width="1877" height="559" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1593530877864" />
-    <state width="1037" height="557" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593559630354" />
-    <state width="1037" height="557" key="GridCell.Tab.0.left" timestamp="1593559630354">
+    <state width="1037" height="557" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593560169943" />
+    <state width="1037" height="557" key="GridCell.Tab.0.left" timestamp="1593560169943">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state width="1877" height="559" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1593530877864" />
-    <state width="1037" height="557" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593559630354" />
-    <state width="1037" height="557" key="GridCell.Tab.0.right" timestamp="1593559630354">
+    <state width="1037" height="557" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593560169943" />
+    <state width="1037" height="557" key="GridCell.Tab.0.right" timestamp="1593560169943">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state width="1877" height="559" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1593530877864" />
-    <state width="1037" height="557" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593559630354" />
+    <state width="1037" height="557" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593560169943" />
     <state x="1920" y="506" key="MergeDialog" timestamp="1593475587678">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
@@ -494,14 +495,14 @@
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="1961" y="585" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593299364788" />
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593557348162">
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593560144083">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="235" y="372" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1593482225687" />
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593557348162" />
-    <state x="2123" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1593554924854">
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593560144083" />
+    <state x="2123" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1593560190236">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state x="2123" y="435" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593554924854" />
+    <state x="2123" y="435" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593560190236" />
   </component>
 </project>
