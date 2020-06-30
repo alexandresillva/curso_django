@@ -138,9 +138,8 @@ if AWS_ACCESS_KEY_ID:
     AWS_PRELOAD_METADATA = True
     AWS_AUTO_CREATE_BUCKET = False
     AWS_QUERYSTRING_AUTH = True
-    AWS_DEFAULT_ACL = 'private'
-
     COLLECTFAST_ENABLED = True
+    AWS_DEFAULT_ACL = 'private'
 
     STATICFILES_STORAGE = 's3_folder_storage.s3.StaticStorage'
     STATIC_S3_PATH = 'static'
