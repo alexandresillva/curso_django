@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb47c40-9404-4ca5-94f4-fe4351884918" name="Default Changelist" comment="Implementação de teste com pytest no django">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -335,7 +334,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593483711917</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="Ajuste COLLECTFAST_STRATEGY v2">
+      <created>1593483995948</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1593483995948</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -357,7 +363,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Implementação do logo do Travis no README.md" />
     <MESSAGE value="Implementação do PyUp" />
     <MESSAGE value="Configuração e aplicação dos arquivos no Heroku" />
     <MESSAGE value="Configuração e aplicação dos arquivos no Heroku - Versão Ajustada" />
@@ -382,7 +387,8 @@
     <MESSAGE value="Ajuste dos arquivos de media" />
     <MESSAGE value="Ajuste do host no heroku" />
     <MESSAGE value="Ajuste COLLECTFAST_STRATEGY" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste COLLECTFAST_STRATEGY" />
+    <MESSAGE value="Ajuste COLLECTFAST_STRATEGY v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ajuste COLLECTFAST_STRATEGY v2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1920" y="595" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593393233617">
@@ -425,11 +431,11 @@
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="1961" y="585" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593299364788" />
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593483714460">
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593483998987">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="235" y="372" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1593482225687" />
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593483714460" />
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593483998987" />
     <state x="2123" y="435" key="search.everywhere.popup" timestamp="1593299701574">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
