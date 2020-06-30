@@ -38,6 +38,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="InvalidFacetManager">
@@ -135,7 +136,7 @@
       <workItem from="1593304092228" duration="6820000" />
       <workItem from="1593311281407" duration="620000" />
       <workItem from="1593393322763" duration="595000" />
-      <workItem from="1593470691640" duration="4433000" />
+      <workItem from="1593470691640" duration="4607000" />
     </task>
     <task id="LOCAL-00001" summary="Integração continua com travis">
       <created>1593287672268</created>
@@ -221,7 +222,21 @@
       <option name="project" value="LOCAL" />
       <updated>1593475363375</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Configuração de arquivos staticos no projeto">
+      <created>1593475543366</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593475543366</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;pypro/settings.py">
+      <created>1593475631958</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593475631958</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +270,9 @@
     <MESSAGE value="Integração das coberturas de testes" />
     <MESSAGE value="Configuração do ambiente de dev e produção para exibir erros conforme cada ambiente" />
     <MESSAGE value="Configuração de arquivos staticos no projeto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Configuração de arquivos staticos no projeto" />
+    <MESSAGE value="Configuração de arquivos staticos no projeto ajustado" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;pypro/settings.py" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;pypro/settings.py" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1920" y="595" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593393233617">
@@ -286,14 +303,22 @@
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state width="1037" height="559" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593311901716" />
+    <state x="1920" y="506" key="MergeDialog" timestamp="1593475587678">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state x="1920" y="506" key="MergeDialog/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593475587678" />
+    <state x="2098" y="701" key="MultipleFileMergeDialog" timestamp="1593475594279">
+      <screen x="1920" y="0" width="1080" height="1880" />
+    </state>
+    <state x="2098" y="701" key="MultipleFileMergeDialog/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593475594279" />
     <state x="1961" y="585" key="SettingsEditor" timestamp="1593299364788">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="1961" y="585" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593299364788" />
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593475365887">
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593475545341">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593475365887" />
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593475545341" />
     <state x="2123" y="435" key="search.everywhere.popup" timestamp="1593299701574">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
