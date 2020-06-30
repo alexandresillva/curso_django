@@ -33,14 +33,13 @@ DEBUG = config('DEBUG', cast=bool)
 ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 # Application definition
-
+# 'collectfast',
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
-    'collectfast',
     'django.contrib.staticfiles',
     'pypro.base',
 ]
@@ -125,7 +124,7 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'mediafiles')
-COLLECTFAST_ENABLED = False
+#COLLECTFAST_ENABLED = False
 
 # storage configuration in S3 AWS
 AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
@@ -138,7 +137,7 @@ if AWS_ACCESS_KEY_ID:
     AWS_PRELOAD_METADATA = True
     AWS_AUTO_CREATE_BUCKET = False
     AWS_QUERYSTRING_AUTH = True
-    COLLECTFAST_ENABLED = True
+   # COLLECTFAST_ENABLED = True
     AWS_DEFAULT_ACL = 'private'
 
     STATICFILES_STORAGE = 's3_folder_storage.s3.StaticStorage'
