@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="acb47c40-9404-4ca5-94f4-fe4351884918" name="Default Changelist" comment="Implementação de teste com pytest no django">
-      <change afterPath="$PROJECT_DIR$/pypro/base/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pypro/base/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Procfile" beforeDir="false" afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pypro/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pypro/base/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/pypro/base/migrations/0001_initial.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +142,7 @@
       <workItem from="1593393322763" duration="595000" />
       <workItem from="1593470691640" duration="4607000" />
       <workItem from="1593525644918" duration="3298000" />
-      <workItem from="1593554794025" duration="739000" />
+      <workItem from="1593554794025" duration="1177000" />
     </task>
     <task id="LOCAL-00001" summary="Integração continua com travis">
       <created>1593287672268</created>
@@ -363,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1593486236394</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="Implementando migração de dados">
+      <created>1593555563518</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1593555563518</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -385,7 +390,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Configuração e aplicação dos arquivos no Heroku - Versão Ajustada" />
     <MESSAGE value="Adicionada informação de publicação da aplicação no Heroku" />
     <MESSAGE value="Ajustando erros de imports" />
     <MESSAGE value="Implementação de teste com pytest no django" />
@@ -410,7 +414,8 @@
     <MESSAGE value="Ajuste COLLECTFAST_STRATEGY v2" />
     <MESSAGE value="Ajuste COLLECTFAST_STRATEGY v3" />
     <MESSAGE value="Ajuste carregamento de novos arquivos e arquivos já enviados." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ajuste carregamento de novos arquivos e arquivos já enviados." />
+    <MESSAGE value="Implementando migração de dados" />
+    <option name="LAST_COMMIT_MESSAGE" value="Implementando migração de dados" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1920" y="595" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1593528263490">
@@ -457,11 +462,11 @@
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="1961" y="585" key="SettingsEditor/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593299364788" />
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593486330593">
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2" timestamp="1593555566349">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
     <state x="235" y="372" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@0.0.1920.1040" timestamp="1593482225687" />
-    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593486330593" />
+    <state x="2052" y="673" key="Vcs.Push.Dialog.v2/0.0.1920.1040/1920.0.1080.1880@1920.0.1080.1880" timestamp="1593555566349" />
     <state x="2123" y="435" width="672" height="678" key="search.everywhere.popup" timestamp="1593554924854">
       <screen x="1920" y="0" width="1080" height="1880" />
     </state>
